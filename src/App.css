@@ -1,38 +1,116 @@
 .App {
-  text-align: center;
+  margin: auto;
+  /* margin-top: 70px; */
+  /* display: flex; */
+  width: auto;
+  height: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.one {
+  /* border: 1px solid grey; */
+  border-bottom: none;
+  width: auto;
+  height: 150px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.one > .back {
+  width: 80px;
+  /* border-left: 1px solid grey; */
+  font-size: 80px;
+  text-align: center;
+  padding-top: 6px;
+  color: grey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.one > .maintitle {
+  width: auto;
+  /* border-left: 1px solid grey; */
+  font-size: 50px;
+  padding-left: 20px;
+  padding-top: 35px;
+}
+
+.two {
+  /* border: 1px solid grey; */
+  border-bottom: none;
+  width: auto;
+  height: 350px;
+  display: flex;
+}
+
+.two > .left {
+  width: 400px;
+  margin-top: 10px;
+  /* border-left: 1px solid grey; */
+}
+
+.two > .left > .picture {
+  width: 380px;
+  height: 210px;
+  margin-left: 9px;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+.two > .left > .go {
+  width: 380px;
+  height: 65px;
+  margin-left: 9px;
+  margin-top: 15px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  color: grey;
+}
+
+.two > .right {
+  width: auto;
+  /* border-left: 1px solid grey; */
+}
+
+.two > .right > .title {
+  width: auto;
+  height: 100px;
+  border-left: 5px solid grey;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.two > .right > .title > .title2 {
+  width: 900px;
+  height: 55px;
+  /* border: 1px solid grey; */
+  font-size: 25px;
+  color: grey;
+  margin-left: 25px;
+  padding-top: 10px;
+}
+
+.two > .right > .title > .time {
+  height: 65px;
+  /* border: 1px solid grey; */
+  color: #4374D9;
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+.two > .right > .contents {
+  font-size: 18px;
+  color: grey;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.two > .right > .contents > ul > li {
+  margin-top: 10px;
+}
+
+.three {
+  /* border: 1px solid grey; */
+  width: auto;
+  height: 417px;
+  padding: 10px;
 }
